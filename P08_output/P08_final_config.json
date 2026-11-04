@@ -1,0 +1,10 @@
+{
+  "dataset": "Wine asli; 178 observasi; 13 fitur numerik; tanpa label",
+  "scaler": "StandardScaler",
+  "representation": "ALL",
+  "clip_iqr": false,
+  "method": "K-Means",
+  "k": 3,
+  "seed": 2026,
+  "reason": "EDA: 0 missing/duplikat, rasio rentang 2645x -> wajib StandardScaler; P3: k=3 silhouette_common tertinggi (KMeans 0.285, Ward 0.277), DBI KMeans 1.389, dendrogram Ward melompat 12.6->27.7 mendukung 3 cabang; P4/P5: KMeans paling stabil (robust/select/PCA/clip 0.280-0.285; outlier x8 0.278 vs Ward 0.260); ALL dipertahankan karena SELECT/PCA tidak memperbaiki skor common dan mengurangi interpretabilitas"
+}
