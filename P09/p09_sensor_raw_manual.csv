@@ -1,0 +1,16 @@
+sample_id,x_m,y_m,sensor_aux,shift
+A,0,0,1020,Shift A
+B,0,1,780,Shift B
+C,1,0,1440,Shift A
+D,1,1,800,Shift B
+E,2,1,1680,Shift A
+F,6,0,670,Shift B
+G,6,1,1220,Shift A
+H,7,0,910,Shift B
+I,7,1,1600,Shift A
+J,8,1,750,Shift B
+K,"3,8",3.8,1310,Shift A
+L,9,5,890,Shift B
+C,1,0,1440,Shift A
+M,5,,1100,Shift A
+N,999,0,800,Shift B
