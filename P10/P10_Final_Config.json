@@ -1,0 +1,19 @@
+{
+  "REG_FINAL_NAME": "LinearRegression 10 fitur",
+  "CLS_FINAL_NAME": "all4 | standard | k=5",
+  "seed": 2026,
+  "reg_test_metrics": {
+    "MAE_test": 41.52306715658956,
+    "RMSE_test": 52.3363992687934,
+    "R2_test": 0.5385960446613791
+  },
+  "cls_test_metrics": {
+    "accuracy_test": 0.9333333333333333,
+    "macro_F1_test": 0.9333333333333332,
+    "balanced_accuracy_test": 0.9333333333333332
+  },
+  "data_sources": [
+    "scikit-learn load_diabetes(scaled=False)",
+    "scikit-learn load_iris()"
+  ]
+}
